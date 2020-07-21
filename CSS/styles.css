@@ -1,0 +1,167 @@
+body {
+ margin: 0;
+ text-align: center;
+ font-family: 'Merriweather',
+  serif;
+}
+
+h1 {
+ font-size: 300%;
+ font-family: 'Sacramento', cursive;
+ margin: 50px auto 0 auto;
+ color: #66BFBF;
+
+}
+
+p {
+ font-family: 'Merriweather',
+  serif;
+ font-size: 1.2rem;
+ font-weight: normal;
+ color: #40514E;
+}
+
+h2 {
+ font-family: 'Merriweather', serif;
+ font-size: 2rem;
+ text-align: center;
+ color: #66BFBF;
+}
+
+h3 {
+ font-family: 'Merriweather', serif;
+ text-align: center;
+ color: #11999E;
+}
+
+hr {
+ border-color: #EAF6F6;
+ width: 80px;
+ border-width: 5px;
+ height: 25px;
+ border-style: dotted none none none;
+ margin: 60px auto;
+
+
+}
+
+.top-container {
+ background-color: #eaf6f6;
+ margin: 0 0 0 0;
+ padding: 100px;
+ position: relative;
+}
+
+.top-cloud {
+ position: absolute;
+ top: 80px;
+ right: 400px;
+
+
+}
+
+.bottom-cloud {
+ position: absolute;
+ top: 200px;
+ left: 400px;
+}
+
+.skill-row {
+ width: 50%;
+ margin: 100px auto 100px auto;
+ line-height: 2;
+}
+
+.my-image {
+ width: 18%;
+ border-radius: 50%;
+ margin: 50px auto;
+}
+
+.intro {
+ width: 30%;
+ margin: auto;
+}
+
+.plant {
+ width: 25%;
+ float: left;
+ margin-right: 30px;
+}
+
+.man {
+ width: 25%;
+ float: right;
+ margin-left: 30px;
+}
+
+.contact-text {
+ width: 30%;
+ text-align: center;
+ margin: auto;
+ padding: 20px;
+}
+
+.btn {
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ border-radius: 20px;
+ height: 31px;
+ line-height: 31px;
+ color: #FFFFFF;
+ font-family: Arial;
+ width: 100px;
+ font-size: 12px;
+ font-weight: 300;
+ padding: 12px;
+ background-color: #66BFBF;
+ box-shadow: 1px 1px 20px 0px #000000;
+ -webkit-box-shadow: 1px 1px 20px 0px #000000;
+ -moz-box-shadow: 1px 1px 20px 0px #000000;
+ text-shadow: 1px 1px 20px #000000;
+ border: solid #66BFBF 1px;
+ text-decoration: none;
+ display: inline-block;
+ cursor: pointer;
+ text-align: center;
+ margin: 30px auto 40px;
+}
+
+.middle-container {
+ background-color: white;
+
+}
+
+.bottom-container {
+ background-color: #66BFBF;
+ width: auto;
+ height: 100px;
+ text-align: center;
+padding: 40px;
+font-size: 16px;
+
+
+}
+
+.link {
+ padding: 30px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 18px;
+ font-weight: bold;
+ text-decoration: none;
+}
+.link:hover {
+ color: thistle;
+}
+
+
+.footer-link {
+ background-attachment: fixed;
+}
+
+.mark {
+ color: #EAF6F6;
+ width: auto;
+ height: 50px;
+ margin-top: 60px;
+}
