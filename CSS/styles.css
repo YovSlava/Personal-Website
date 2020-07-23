@@ -92,7 +92,7 @@ hr {
   left: 400px;
 }
 
-.mountain{
+.mountain {
   position: absolute;
   bottom: 0px;
   right: 400px;
@@ -164,9 +164,9 @@ hr {
   color: #FFFFFF;
   font-family: Arial;
   width: 120px;
-  font-size: 14px;
-  font-weight: 300;
-  padding: 12px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 12px;
   background-color: #66BFBF;
   box-shadow: 1px 1px 20px 0px #000000;
   -webkit-box-shadow: 1px 1px 20px 0px #000000;
@@ -176,8 +176,8 @@ hr {
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  text-align: center;
   margin: 30px auto 40px;
+
 }
 
 .middle-container {
