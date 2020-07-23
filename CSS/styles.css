@@ -124,6 +124,22 @@ hr {
   margin-left: 30px;
 }
 
+
+/***Portfolio Section**/
+
+.row {
+  width: 70%;
+  padding: 20px;
+  margin: auto;
+}
+
+.card-title {
+  font-size: 24px;
+
+}
+
+/***Portfolio Section**/
+
 .contact-text {
   width: 30%;
   text-align: center;
