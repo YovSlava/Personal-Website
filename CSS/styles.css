@@ -148,6 +148,23 @@ hr {
 
 /***Portfolio Section**/
 
+.card-body { 
+height: 400px;
+padding-top: 100px;
+} 
+
+.card-body:hover {
+background-color: #eaf6f6;
+color: #11999E;
+
+}
+
+.btnPortfolio {
+  width: 100px;
+  height: 40px;
+background-color: lawngreen;
+}
+
 .contact-text {
   width: 30%;
   text-align: center;
