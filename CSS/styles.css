@@ -148,21 +148,42 @@ hr {
 
 /***Portfolio Section**/
 
-.card-body { 
-height: 400px;
-padding-top: 100px;
-} 
+a {
+  color: #40514E;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #40514E;
+}
+
+
+.card-body {
+  height: 400px;
+  padding-top: 100px;
+}
 
 .card-body:hover {
-background-color: #eaf6f6;
-color: #11999E;
+  background-color: #eaf6f6;
+  color: #11999E;
 
 }
 
-.btnPortfolio {
+.btn-portfolio {
   width: 100px;
-  height: 40px;
-background-color: lawngreen;
+  height: 60px;
+  margin: 10px;
+  background-color: #eaf6f6;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.btn-portfolio:hover {
+  background-color: #FFFFFF;
+  color: white;
+  text-decoration: none;
+
+
 }
 
 .contact-text {
@@ -172,7 +193,7 @@ background-color: lawngreen;
   padding: 20px;
 }
 
-.btn {
+.button-contact {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
