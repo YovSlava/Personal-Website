@@ -23,6 +23,40 @@ body {
     font-size: 12px;
     padding: 50px;
   }
+
+
+  /*Portfolio*/
+
+  .row {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /*.btn-portfolio {
+    display: none;
+  }*/
+
+  .btn-portfolio-sm {
+    display: inherit;
+    background-color: red;
+  }
+
+  .card-body {
+    height: auto;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+  }
+
+  .card-body:hover {
+    background-color: #eaf6f6;
+    color: #11999E;
+
+  }
+
+  /*Bottom Container*/
+
+
 }
 
 
@@ -134,6 +168,12 @@ hr {
 
 /***Portfolio Section**/
 
+.card {
+  max-width: 100%;
+  max-height: 1000px;
+  overflow: auto;
+}
+
 .row {
   width: 70%;
   padding: 20px;
@@ -161,6 +201,7 @@ a:visited {
 .card-body {
   height: 400px;
   padding-top: 100px;
+  word-wrap: break-word;
 }
 
 .card-body:hover {
@@ -184,7 +225,9 @@ a:visited {
   text-decoration: none;
 }
 
-
+.btn-portfolio-sm {
+  display: none;
+}
 
 
 /**    Contact Section     **/
@@ -229,7 +272,7 @@ a:visited {
 .bottom-container {
   background-color: #66BFBF;
   width: auto;
-  height: 192px;
+  height: 230px;
   text-align: center;
   padding: 40px;
   font-size: 16px;
