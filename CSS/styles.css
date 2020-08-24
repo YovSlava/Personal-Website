@@ -19,6 +19,14 @@ body {
     display: none;
   }
 
+  .top-cloud {
+    display: none;
+  }
+
+  .bottom-cloud {
+    display: none;
+  }
+
   .link {
     font-size: 12px;
     padding: 50px;
@@ -35,11 +43,6 @@ body {
   /*.btn-portfolio {
     display: none;
   }*/
-
-  .btn-portfolio-sm {
-    display: inherit;
-    background-color: red;
-  }
 
   .card-body {
     height: auto;
@@ -58,9 +61,6 @@ body {
 
 
 }
-
-
-
 
 
 
