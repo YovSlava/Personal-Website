@@ -2,11 +2,10 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Merriweather',
-    serif;
+  font-family: "Merriweather", serif;
 }
 
-@media only screen and (max-width: 700px) {
+@media all and (max-width: 700px) {
   .mountain {
     display: none;
   }
@@ -32,7 +31,6 @@ body {
     padding: 50px;
   }
 
-
   /*Portfolio*/
 
   .row {
@@ -43,7 +41,9 @@ body {
   /*.btn-portfolio {
     display: none;
   }*/
-
+  .card {
+    height: auto;
+  }
   .card-body {
     height: auto;
     padding-top: 5px;
@@ -51,57 +51,52 @@ body {
     word-wrap: break-word;
   }
 
-  .card-body:hover {
+  .card:hover {
     background-color: #eaf6f6;
-    color: #11999E;
+    color: #11999e;
+  }
 
+  .card-text {
+    height: auto;
   }
 
   /*Bottom Container*/
-
-
 }
-
-
 
 h1 {
   font-size: 300%;
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   margin: 50px auto 0 auto;
-  color: #66BFBF;
-
+  color: #66bfbf;
 }
 
 p {
-  font-family: 'Merriweather',
-    serif;
+  font-family: "Merriweather", serif;
   font-size: 1.2rem;
   font-weight: normal;
-  color: #40514E;
+  color: #40514e;
 }
 
 h2 {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 2rem;
   text-align: center;
-  color: #66BFBF;
+  color: #66bfbf;
 }
 
 h3 {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   text-align: center;
-  color: #11999E;
+  color: #11999e;
 }
 
 hr {
-  border-color: #EAF6F6;
+  border-color: #eaf6f6;
   width: 80px;
   border-width: 5px;
   height: 25px;
   border-style: dotted none none none;
   margin: 60px auto;
-
-
 }
 
 .top-container {
@@ -116,8 +111,6 @@ hr {
   position: absolute;
   top: 80px;
   right: 400px;
-
-
 }
 
 .bottom-cloud {
@@ -165,7 +158,6 @@ hr {
   margin-left: 30px;
 }
 
-
 /***Portfolio Section**/
 
 .card {
@@ -183,20 +175,23 @@ hr {
 .card-title {
   font-size: 24px;
   font-weight: bold;
-
 }
 
 /***Portfolio Section**/
 
 a {
-  color: #40514E;
+  color: #ffffff;
 }
 
 a:visited {
   text-decoration: none;
-  color: #40514E;
+  color: #40514e;
+  text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
 
 .card-body {
   height: 400px;
@@ -204,31 +199,18 @@ a:visited {
   word-wrap: break-word;
 }
 
-.card-body:hover {
+.card:hover {
   background-color: #eaf6f6;
-  color: #11999E;
-
+  color: #11999e;
 }
 
-.btn-portfolio {
-  width: 100px;
-  height: 60px;
-  margin: 10px;
-  background-color: #eaf6f6;
-  font-weight: bolder;
+.aPortfolio {
+  padding: 5px;
+  margin: 5px;
   text-decoration: none;
+  font-size: 1.6rem;
+  color: #66bfbf;
 }
-
-.btn-portfolio:hover {
-  background-color: #FFFFFF;
-  color: white;
-  text-decoration: none;
-}
-
-.btn-portfolio-sm {
-  display: none;
-}
-
 
 /**    Contact Section     **/
 
@@ -245,32 +227,30 @@ a:visited {
   border-radius: 20px;
   height: 55px;
   line-height: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Arial;
   width: 120px;
   font-size: 18px;
   font-weight: 400;
   padding: 0 12px;
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   box-shadow: 1px 1px 20px 0px #000000;
   -webkit-box-shadow: 1px 1px 20px 0px #000000;
   -moz-box-shadow: 1px 1px 20px 0px #000000;
   text-shadow: 1px 1px 20px #000000;
-  border: solid #66BFBF 1px;
+  border: solid #66bfbf 1px;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
   margin: 30px auto 40px;
-
 }
 
 .middle-container {
   background-color: white;
-
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   width: auto;
   height: 230px;
   text-align: center;
@@ -280,7 +260,8 @@ a:visited {
 
 .link {
   padding: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
@@ -290,14 +271,13 @@ a:visited {
   color: thistle;
 }
 
-
 .footer-link {
   background-attachment: fixed;
 }
 
 .mark {
-  background-color: #66BFBF;
-  color: #EAF6F6;
+  background-color: #66bfbf;
+  color: #eaf6f6;
   width: auto;
   height: 50px;
   margin-top: 60px;
