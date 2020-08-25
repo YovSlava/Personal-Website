@@ -5,64 +5,6 @@ body {
   font-family: "Merriweather", serif;
 }
 
-@media all and (max-width: 700px) {
-  .mountain {
-    display: none;
-  }
-
-  .first-photo {
-    display: none;
-  }
-
-  .second-photo {
-    display: none;
-  }
-
-  .top-cloud {
-    display: none;
-  }
-
-  .bottom-cloud {
-    display: none;
-  }
-
-  .link {
-    font-size: 12px;
-    padding: 50px;
-  }
-
-  /*Portfolio*/
-
-  .row {
-    max-width: 100%;
-    height: auto;
-  }
-
-  /*.btn-portfolio {
-    display: none;
-  }*/
-  .card {
-    height: auto;
-  }
-  .card-body {
-    height: auto;
-    padding-top: 5px;
-    margin-bottom: 10px;
-    word-wrap: break-word;
-  }
-
-  .card:hover {
-    background-color: #eaf6f6;
-    color: #11999e;
-  }
-
-  .card-text {
-    height: auto;
-  }
-
-  /*Bottom Container*/
-}
-
 h1 {
   font-size: 300%;
   font-family: "Sacramento", cursive;
@@ -180,9 +122,8 @@ hr {
 /***Portfolio Section**/
 
 a {
-  color: #ffffff;
+  color: #40514e;
 }
-
 a:visited {
   text-decoration: none;
   color: #40514e;
@@ -210,6 +151,12 @@ a:hover {
   text-decoration: none;
   font-size: 1.6rem;
   color: #66bfbf;
+}
+.aPortfolio:visited {
+  color: #66bfbf;
+}
+.aPortfolio:hover {
+  color: #11999e;
 }
 
 /**    Contact Section     **/
@@ -281,4 +228,65 @@ a:hover {
   width: auto;
   height: 50px;
   margin-top: 60px;
+}
+
+/*Media Queries*/
+
+@media all and (max-width: 700px) {
+  .mountain {
+    display: none;
+  }
+
+  .first-photo {
+    display: none;
+  }
+
+  .second-photo {
+    display: none;
+  }
+
+  .top-cloud {
+    display: none;
+  }
+
+  .bottom-cloud {
+    display: none;
+  }
+
+  .link {
+    font-size: 12px;
+    padding: 50px;
+  }
+
+  /*Portfolio*/
+
+  .row {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /*.btn-portfolio {
+    display: none;
+  }*/
+  .card {
+    height: auto;
+  }
+
+  .card-body {
+    height: auto;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+  }
+
+  .card:hover {
+    background-color: #eaf6f6;
+    color: #11999e;
+  }
+
+  .card-text {
+    height: auto;
+  }
+
+  /*Bottom Container*/
 }
